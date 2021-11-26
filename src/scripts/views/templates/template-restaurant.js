@@ -5,13 +5,13 @@ const restoTemplate = (item) => `
     <a href="#/detail/${item.id}" class='card-tag'>
         <div tabindex="0" class="article-card">
             <figure class="article-image">
-                <img tabindex="0" class="lazyload" src="${CONFIG.BASE_IMG_URL_SM}${item.pictureId}" alt="${item.name}" />
+                <img tabindex="0" class="lazyload" data-src="${CONFIG.BASE_IMG_URL_SM}${item.pictureId}" alt="${item.name}" />
             </figure>
             <div tabindex="0" class="article-content">
                     <h2 class="card-name">${item.name}</h2>
                     <p class="card-city">(${item.city})</p>
                     <div class="rating">
-                        <img class="lazyload" src="${star}" alt="star-rating" />
+                        <img class="lazyload" data-src="${star}" alt="star-rating" />
                         <span>${item.rating}</span>
                     </div>
 
