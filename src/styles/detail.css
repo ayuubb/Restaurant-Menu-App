@@ -1,0 +1,135 @@
+.detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.detail__menu {
+  display: flex;
+}
+
+.detail__content {
+  width: 100%;
+}
+.img-detail {
+  margin-right: 2rem;
+  max-width: 800px;
+  height: 100%;
+}
+.img-detail img {
+  border-radius: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  /* object-fit: cover; */
+  height: 100%;
+}
+
+.detail-address {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.detail-desc {
+  font-size: 0.9375rem;
+  text-align: justify;
+  margin: 10px 0 10px 0;
+  color: rgb(50, 50, 50);
+}
+.category span {
+  padding: 6px;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+.menu {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu h2 {
+  font-size: 2rem;
+}
+.menu h4 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.item__menu {
+  font-weight: 300;
+  color: rgb(196, 196, 196);
+  line-height: 2;
+}
+
+.detail__menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.detail-food,
+.detail-drink {
+  background-color: #000;
+  padding: 20px 100px;
+  margin: 1rem;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.title-review {
+  margin: 2rem 0 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.detail-review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.detail-review-item {
+  display: flex;
+  padding: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border-radius: 20px;
+  margin: 10px;
+  width: 250px;
+  max-width: 300px;
+  height: 150px;
+}
+
+.review-name {
+  font-weight: 600;
+}
+
+.review-date {
+  font-size: 0.812rem;
+  font-weight: 400;
+  color: rgb(87, 87, 87);
+}
+.review-body {
+  font-style: italic;
+}
+.like {
+  font-size: 18px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #db0000;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
